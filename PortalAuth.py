@@ -6,7 +6,7 @@ from requests_toolbelt.adapters import source
 responses = []
 s = requests.Session()
 
-class PotalAuth():
+class PortalAuth():
     def __init__(self,**kargs):
         #kargs 必须时IP与域名的字典形式kargs={"192.168.3.33":"http://www.baidu.com","192.168.3.34":"http://www.qq.com"}
         #[(ip,url,header)]
@@ -155,7 +155,7 @@ if __name__ == "__main__":
         post_dict["192.168.1.%s" %(i)]=["tenda%s" %(j),"tenda%s" %(j)]
         j=j+1
     print get_dict
-    t=PotalAuth(**get_dict)
+    t=PortalAuth(**get_dict)
     t.config_macvlan()
     t.geturl(**get_dict)
     t.portal(**post_dict)
