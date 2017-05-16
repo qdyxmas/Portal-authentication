@@ -1,3 +1,3 @@
-from portal import PotalAuth
-t=PotalAuth()
+from portal import PortalAuth
+t=PortalAuth()
 t.del_macvlan()
