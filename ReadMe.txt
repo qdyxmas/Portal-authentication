@@ -1,8 +1,8 @@
-1¡¢add_macvlan.py Ö÷ÒªÓÃÓÚÔÚeth1ÉÏÌí¼ÓMacvlan ĞòºÅ´Óveth1-vethN DUT IPµØÖ·×îºóÒ»Î»Îª.1
-2¡¢auth.py Ö÷ÒªÓÃÓÚÄ£Äâ·¢ËÍÇëÇóÈÏÖ¤ (ĞèÒªÏÈ±£Ö¤ÓòÃû¿É´ï)
-3¡¢portal.py Ö÷Òªº¯ÊıÎÄ¼ş
-4¡¢del_macvlan.py Ö÷ÒªÓÃÓÚÉ¾³ıMacvlan
-5¡¢Ä¬ÈÏ±£´æ½á¹ûÎªµ±Ç°Ä¿Â¼ÏÂµÄtestresult.csvÎÄ¼ş
-6¡¢×î´óÖ»Ö§³Ö250¸öÓÃ»§
-#ËùĞèÒª°²×°µÄpython°üÓĞrequests requests_toolbelt
-ÔÚpython2.7.10ÉÏ²âÊÔÍ¨¹ı
+1ã€add_macvlan.py ä¸»è¦ç”¨äºåœ¨eth1ä¸Šæ·»åŠ Macvlan åºå·ä»veth1-vethN DUT IPåœ°å€æœ€åä¸€ä½ä¸º.1
+2ã€auth.py ä¸»è¦ç”¨äºæ¨¡æ‹Ÿå‘é€è¯·æ±‚è®¤è¯ (éœ€è¦å…ˆä¿è¯åŸŸåå¯è¾¾)
+3ã€PortalAuth.py ä¸»è¦å‡½æ•°æ–‡ä»¶
+4ã€del_macvlan.py ä¸»è¦ç”¨äºåˆ é™¤Macvlan
+5ã€é»˜è®¤ä¿å­˜ç»“æœä¸ºå½“å‰ç›®å½•ä¸‹çš„testresult.csvæ–‡ä»¶
+6ã€æœ€å¤§åªæ”¯æŒ250ä¸ªç”¨æˆ·
+#æ‰€éœ€è¦å®‰è£…çš„pythonåŒ…æœ‰requests requests_toolbelt
+åœ¨python2.7.10ä¸Šæµ‹è¯•é€šè¿‡
